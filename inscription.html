@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Formulaire d'inscripton</title>
+    <link rel="stylesheet" href="Formulaire1.css">
+</head>
+<body>
+    <div id="couleurdefond">
+        <div id="conteneur">
+            <div id="haut"></div>
+            <h1 style="text-align: center;">INSCRIPTION</h1>
+            <p style="text-align: center;">Veuillez entrer vos coordonnées personnelles</p>
+            <form  action="inscription.php" method="post">
+            <div id="formulaire">
+                <div id="form1">
+                    <label for="Name">Name</label><br>
+                    <input type="text" name="Name" id="Name" placeholder="Enter your name" required><br><br>
+                    <label for="Email">Email</label><br>
+                    <input type="email" name="Email" id="Email" placeholder="Enter your email" required><br><br>
+                    <label for="Age">Age</label><br>
+                    <input type="number" name="Age" id="Age" placeholder="Age" required><br><br> 
+                    <label for="pseudo">pseudo</label><br>
+                    <input type="text" name="pseudo" id="pseudo" placeholder="pseudo" required><br><br>
+                    <label for="Mot_de_passe">Mot de Passe</label><br>
+                    <input type="password" name="Mot_de_passe" id="Mot_de_passe" placeholder="Mot_de_passe" required><br><br>
+                </div>
+    
+                <div id="submit">
+                    <button type="submit" id="submit">submit</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
